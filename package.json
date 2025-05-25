@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://silvia80569.github.io/camper-rent/",
-
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
