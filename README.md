@@ -70,7 +70,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/camper-rental-app.git
+git clone https://github.com/silvia80569/camper-rent.git
 cd camper-rental-app
 
 # Install dependencies
