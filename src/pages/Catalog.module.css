@@ -1,0 +1,31 @@
+.loadMoreButton {
+  margin: 20px auto 60px auto;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.loadMoreButton:hover {
+  background-color: #45a049;
+}
+
+/* --- TABLET & DESKTOP --- */
+@media (min-width: 768px) {
+  .catalogContainer {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 32px;
+    margin: 30px;
+  }
+  .loadMoreButton {
+    margin-bottom: 20px;
+  }
+}

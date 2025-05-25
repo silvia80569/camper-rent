@@ -1,0 +1,34 @@
+.favoritesContainer {
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.noFavoritesMessage {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+/* --- TABLET --- */
+@media (min-width: 768px) {
+  .favoritesContainer {
+    max-width: 900px;
+    padding: 24px;
+  }
+}
+
+/* --- DESKTOP --- */
+@media (min-width: 1158px) {
+  .favoritesContainer {
+    max-width: 1200px;
+    padding: 32px;
+  }
+}

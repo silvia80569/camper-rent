@@ -1,0 +1,55 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px 10px;
+}
+
+.equipment,
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.locationLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: var(--inputs);
+}
+
+.locationIcon {
+  color: var(--button);
+  font-size: 1rem;
+}
+
+.location input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 0.9rem;
+  background-color: transparent;
+  color: var(--main);
+}
+
+/* --- TABLET & DESKTOP --- */
+@media (min-width: 768px) {
+  .filters {
+    padding: 24px 16px;
+  }
+
+  .equipment,
+  .types {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .location input {
+    font-size: 1rem;
+  }
+}

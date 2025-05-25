@@ -1,0 +1,96 @@
+.footer {
+  background-color: #e44848;
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.contactInfo {
+  margin-bottom: 1rem;
+  font-size: 0.95;
+}
+
+.contactInfo p {
+  margin-bottom: 0.75rem;
+}
+
+.contactInfo a {
+  color: white;
+  text-decoration: none;
+}
+
+.contactInfo a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.socials a {
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.socials a:hover {
+  color: #ffd803;
+  transform: scale(1.2);
+}
+
+.copy {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* --- TABLET --- */
+@media (min-width: 768px) {
+  .footer {
+    padding: 2.5rem 3rem;
+    text-align: left;
+  }
+
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .socials {
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .copy {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+}
+
+/* ---  DESKTOP --- */
+@media (min-width: 1158px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem 6rem;
+  }
+
+  .contactInfo {
+    margin-bottom: 0;
+  }
+
+  .socials {
+    margin-bottom: 0;
+  }
+
+  .copy {
+    align-self: flex-end;
+    margin-top: 0;
+  }
+}

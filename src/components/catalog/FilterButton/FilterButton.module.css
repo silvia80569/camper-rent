@@ -1,0 +1,62 @@
+.filterButton {
+  width: 80px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  padding: 6px;
+  border: 1px solid var(--main);
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-weight: var(--font-weight-medium);
+  color: var(--main);
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.filterButton:hover {
+  background-color: var(--button);
+  color: white;
+  border-color: var(--button);
+}
+
+.active {
+  background-color: var(--button);
+  color: white;
+  border-color: var(--button);
+}
+
+.icon {
+  font-size: 1.6rem;
+  color: inherit;
+  line-height: 1;
+}
+
+.label {
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* --- TABLET & DESKTOP --- */
+@media (min-width: 768px) {
+  .filterButton {
+    width: 112px;
+    height: 95px;
+    padding: 8px;
+    font-size: 1rem;
+    gap: 8px;
+  }
+
+  .icon {
+    font-size: 2.2rem;
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+}
